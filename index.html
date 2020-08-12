@@ -4,11 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Basic Weather Application</title>
 </head>
 
 <body>
-
+    <div class="app-wrap">
+        <header>
+            <input type="text" autocomplete="off" class="search-box" placeholder="Search for your city ...">
+        </header>
+        <main>
+            <section class="location">
+                <div class="city">Dhaka, Bangladesh</div>
+                <div class="date">Thursday 13 August 2020</div>
+            </section>
+            <div class="current">
+                <div class="temperature">30<span>°c</span></div>
+                <div class="weather">Sunny</div>
+                <div class="high-low">29°c / 30°c</div>
+            </div>
+        </main>
+    </div>
+    <script src="main.js"></script>
 </body>
 
 </html>
