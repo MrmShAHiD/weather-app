@@ -10,3 +10,16 @@ body {
     background-size: cover;
     background-position: top center;
 }
+
+.app-wrap {
+    text-align: center;
+    padding-top: 15%;
+}
+
+.current {
+    margin-top: 30px;
+}
+
+h1 {
+    font-size: 80px !important;
+}
