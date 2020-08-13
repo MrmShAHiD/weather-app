@@ -22,4 +22,24 @@ body {
 
 h1 {
     font-size: 80px !important;
+    font-weight: 800 !important;
+}
+
+header input {
+    width: 100%;
+    max-width: 280px;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    padding: 10px 15px;
+    outline: none;
+    font-size: 15px;
+    font-weight: 300;
+    transition: 0.2s ease-out;
+}
+
+header button {
+    padding: 10px 15px !important;
+    border: none !important;
+    border-radius: 10px !important;
 }
