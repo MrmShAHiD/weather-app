@@ -13,11 +13,7 @@ body {
 
 .app-wrap {
     text-align: center;
-    padding-top: 15%;
-}
-
-.current {
-    margin-top: 30px;
+    padding-top: 50px;
 }
 
 .title {
@@ -38,21 +34,37 @@ body {
     transition: 0.2s ease-out;
 }
 
-.submit-button {
-    width: 100%;
-    max-width: 70px;
-    border: none;
-    border-radius: 10px;
-    color: white;
-    padding: 10px 15px;
-    outline: none;
-    font-size: 15px;
-    font-weight: 700;
-    background-color: gray;
+main{
+    padding: 25px 25px 50px;
 }
 
-header button {
-    padding: 10px 15px;
-    border: none;
-    border-radius: 10px;
+.location .city{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.location .date {
+    color: #fff;
+    font-size: 16px;
+}
+.current .temp{
+    color: #fff;
+    font-size: 102px;
+    font-weight: 900;
+    margin: 30px 0px;
+}
+.current .temp span{
+    font-weight: 500;
+}
+.current .weather {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+}
+.current .hi-low {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
 }
